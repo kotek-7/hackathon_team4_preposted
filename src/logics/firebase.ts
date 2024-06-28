@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { GoogleAuthProvider, getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyANI2Vwijw1m3wpedRqhJt-hvG58TSbPoo",
-  authDomain: "hackathon-team4-preposted.firebaseapp.com",
-  projectId: "hackathon-team4-preposted",
-  storageBucket: "hackathon-team4-preposted.appspot.com",
-  messagingSenderId: "681450643673",
-  appId: "1:681450643673:web:8f304df0d2e6f02ee2dec8"
+  apiKey: "AIzaSyDo29C-i_25v1jXUtNubHhoJ4NTZnvOHKc",
+  authDomain: "craft-stadium-finaldemo.firebaseapp.com",
+  projectId: "craft-stadium-finaldemo",
+  storageBucket: "craft-stadium-finaldemo.appspot.com",
+  messagingSenderId: "1050861932340",
+  appId: "1:1050861932340:web:b0086b1b188fd7928d5f61"
 };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
